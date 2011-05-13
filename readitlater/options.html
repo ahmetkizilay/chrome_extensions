@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Read It Later - Options </title>
+	<script>
+		function resetHistory() {
+			localStorage["ReadItLater"] = "";
+		}
+		
+		function listLinks() {
+			var links = localStorage["ReadItLater"].split("\n");			
+			var mainDiv = document.getElementById('links');
+			for(var i = 0; i < links.length; i = i+2) {
+				var anc = document.createElement('a');
+				anc.href = links[i + 1];
+				anc.appendChild(document.createTextNode(links[i]));				
+				mainDiv.appendChild(anc);
+				mainDiv.appendChild(document.createElement('br'));
+			}
+		}
+	</script>	
+</head>
+<body onload="listLinks();">
+<input type="button" value="reset" onclick="resetHistory()" />
+<div id="links"></div>
+</body>
+</html>

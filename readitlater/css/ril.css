@@ -1,0 +1,15 @@
+div {
+    padding: 1px 3px;
+    font-family: sans-serif;
+    width: 300px;
+    margin-top: 1px;
+    background: #ffffff;
+}
+
+table tr td:first-child {
+    width: 90%;
+}
+
+input[type='text'] {
+    width: 100%;
+}

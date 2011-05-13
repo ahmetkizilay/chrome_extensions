@@ -1,0 +1,15 @@
+READ IT LATER
+
+This is my work-in-progress Google Chrome Browser Extension.
+It is meant to provide a simple and quick way of storing the links to the articles for which I
+don't have the time to read at the moment.
+
+Currently, the links are stored in <i>localStorage</i> and they are listed in the options page.
+
+ahmet kizilay
+yourstruly ~at~ myfullname ~dot~ com
+
+
+version. 0.51
+* added list size on the badge.
+* js/css/folder reorganising.
