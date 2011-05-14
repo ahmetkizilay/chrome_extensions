@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Google Ads Remover</title>
+    <script src="js/jquery-1.6.1.min.js"></script>
+    <script src="js/gar_opt.js"></script>
+  </head>
+  <body>
+    <h2>Google Ads Remover</h2>
+    <hr />
+    <span id="spanExc">
+      <span>Included URLS</span>
+      <li><input type="text" id="txtNewUrl" /><input type="button" value="add" onclick="addNewUrl();"></li>
+    </span>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+    "name": "Google Adsense Remover",
+    "version": "0.1",
+    "description": "Removes Google Ads On Page",
+    "background_page": "background.html",
+    "options_page": "options.html",
+    "icons": {
+    	     "16": "img/adsense16.png",
+    	     "48": "img/adsense48.png",
+    	     "128": "img/adsense128.png"	     
+    },
+    "browser_action": {
+    		      "default_icon": "img/adsense19.png"
+    },
+    "permissions": [
+	"tabs",
+	"http://*/*", 
+	"https://*/*"
+    ]
+}
