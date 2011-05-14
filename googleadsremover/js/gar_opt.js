@@ -10,6 +10,10 @@ function loadExclusionList() {
 }
 
 function addNewUrl() {
+    if($('#txtNewUrl').hasClass('empty')){
+	return false;
+    }
+
     var excludedList = localStorage["GAR_ExcList"];
     if(!excludedList) excludedList = "";
     var inputUrl = $('#txtNewUrl').val();

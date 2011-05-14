@@ -2,3 +2,6 @@ This extension detects google adsense scripts on webpages and hides them.
 
 In order to enable for a specific page, a key word from the url of the page should be listed in the options page.
 
+
+version 1.2
+* javscript and css modifications for adding new links.
